@@ -1,20 +1,30 @@
-Neurodivergent Assistant
+# Neurodivergent Assistant 
 
-Version: 1.0
-Stack: Python, FastAPI, Hugging Face Transformers (facebook/bart-large-cnn), Uvicorn
+![Python](https://img.shields.io/badge/python-3.10+-blue?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.5-green?logo=fastapi&logoColor=white) ![HuggingFace](https://img.shields.io/badge/Hugging%20Face-Transformers-orange?logo=huggingface&logoColor=white)
 
-Description :
-Neurodivergent Assistant est une API capable de résumer automatiquement des textes en anglais. Le projet utilise le modèle facebook/bart-large-cnn pour produire des résumés précis et compréhensibles, idéal pour la lecture rapide de documents, articles ou notes.
+**Version :** 1.0  
+**Stack :** Python, FastAPI, Hugging Face Transformers (`facebook/bart-large-cnn`), Uvicorn  
 
-Fonctionnalités
+---
 
-Résumé automatique de textes en anglais.
+##  Description
 
-API REST simple à utiliser.
+Neurodivergent Assistant est une API REST qui **résume automatiquement des textes en anglais**. Elle utilise le modèle **facebook/bart-large-cnn** pour produire des résumés précis et compréhensibles, parfait pour la lecture rapide d’articles, notes ou documents longs.
 
-Possibilité de tester via Swagger UI (/docs) ou via un script Python.
+---
 
-Extensible pour d’autres fonctionnalités NLP (traduction, génération de texte, etc.).
+##  Fonctionnalités
+
+- Résumé automatique de textes en anglais.  
+- API REST simple à utiliser.  
+- Swagger UI pour tester l’API facilement (`/docs`).  
+- Extensible pour d’autres fonctionnalités NLP (traduction, génération de texte, etc.).  
+
+---
+
+## 📂 Structure du projet
+
+
 
 Arborescence du projet
 ai-neurodivergent-assistant/
@@ -28,17 +38,23 @@ ai-neurodivergent-assistant/
 ├── requirements.txt      # Dépendances Python
 └── README.md             # Ce fichier
 
-Installation
 
-Cloner le dépôt :
+---
 
+## ⚡ Installation
+
+1. **Cloner le dépôt :**
+
+```bash
 git clone <URL_DU_DEPOT>
 cd ai-neurodivergent-assistant
 
 
-Créer un environnement virtuel :
+
+** Créer un environnement virtuel : **
 
 python -m venv venv
+
 
 
 Activer l’environnement :
