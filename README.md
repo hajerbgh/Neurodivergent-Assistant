@@ -46,7 +46,7 @@ ai-neurodivergent-assistant/
 1. **Cloner le dépôt :**
 
 ```bash
-git clone <URL_DU_DEPOT>
+git clone  https://github.com/hajerbgh/Neurodivergent-Assistant
 cd ai-neurodivergent-assistant
 
 
